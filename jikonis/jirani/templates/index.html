@@ -1,13 +1,13 @@
-{%extends 'base.html'%}
-
 {% block content %}
 {{bock.super}}
-
+<head>
+  <!--core first + styles last-->
+  <link href="/static/fontawesome/fontawesome-all.css" rel="stylesheet">
+</head>
 <style media="screen">
-
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
-@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous);
 
   body{
 		height: 1000px;
@@ -103,10 +103,12 @@ a.animated-button:link, a.animated-button:visited {
 
 </style>
 <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+
+<i class="fas fa-home"></i>
 <h1 style="color:black;     font-family: 'Aclonica', cursive;  text-align:center; margin-top:300px; font-size:70px;">JIRANIS</h1>
 <p style="color:black; text-align:center;">Your number one neighbour hood needs solution</p>
 
- <div class="col-md-3 col-sm-3 col-xs-12" style="margin-left:450px;"> <a href="#" style="text-align:center;" class="btn btn-sm animated-button sandy-one">Sign up</a> </div>
- <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button sandy-one">login</a> </div>
+ <div class="col-md-3 col-sm-3 col-xs-12" style="margin-left:450px;"> <a  href="{% url 'registration_register' %}" style="text-align:center;" class="btn btn-sm animated-button sandy-one">Sign up</a> </div>
+ <div class="col-md-3 col-sm-3 col-xs-6"> <a href="accounts/login" class="btn btn-sm animated-button sandy-one">login</a> </div>
 
 {% endblock %}
