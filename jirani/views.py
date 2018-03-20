@@ -1,5 +1,5 @@
 from django.http  import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 import datetime as dt
 from django.contrib.auth.decorators import login_required
 from . models import Hood
@@ -35,6 +35,6 @@ def new_hood(request):
             if request.method == 'POST':
                 form = myNewProfile(request.post,request.FILES)
                 hood.user = current_user
-                shood.save()
+                hood.save()
                 return redirect('home')
     return render(request, 'new-hood.html', {'form':form })
