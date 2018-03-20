@@ -1,7 +1,8 @@
 ## JIRANIS
 this is a website where users can view what is happening around their neighbourhood
 
-##user stories
+## user stories.
+
 1.Sign in to the application to start using.
 
 2.Set up a profile about me and a general location and my neighborhoodname.
