@@ -1,1 +1,1 @@
-web: gunicorn​ ​ project_name(jikonis) ​ .wsgi​
+web: gunicorn jikonis.wsgi
