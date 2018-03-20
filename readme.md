@@ -3,14 +3,25 @@ this is a website where users can view what is happening around their neighbourh
 
 ##user stories
 1.Sign in to the application to start using.
+
 2.Set up a profile about me and a general location and my neighborhoodname.
-3.Find a list of different businesses in my neighborhood.
+
+3.Find a list of different businesses in my neighborhood
+
 4.Rate the different Businesses.
+
 5.Find the contact Information of different handymen ie Electricians.
+
 6.Leave a review for the different handymen .
-7.Find contact Information for the health department and Police 8.authorities near my neighborhood.
+
+7.Find contact Information for the health department and Police.
+
+8.authorities near my neighborhood.
+
 9.Create Posts that will be visible to everyone in my neighborhood.
+
 10.Change My neighborhood when I decide move out.
+
 11.Only view details of a single neighborhood.
 
 ## Getting Started
