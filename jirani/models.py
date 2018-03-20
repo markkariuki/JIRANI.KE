@@ -1,5 +1,5 @@
 from django.db import models
-import datetime as dt
+import datetime as dtd
 from django.contrib.auth.models import User
 
 class Hood(models.Model):
